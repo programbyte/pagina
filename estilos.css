@@ -2,40 +2,31 @@
 h1 {
 	padding: 10px;
 	background-image: url(img/sobre-background.jpg);
-	
 }
-
 h2 {
-	margin-top: 30px
+	/*margin-top: 30px*/
 	border-bottom: 2px solid #333333;
-	
 }
-
 h3 {	
 	padding: 0 45px;
 	background: #F2EDED;
 	font-family: monospace;
-
 }
-
 body{
 	margin-left: auto;
 	margin-right: auto;
 	width: 940px;
 	color: #333333
 	font-family: "Lucida Sans Unicode","Lucida Grande",sans-serif;
-
 }
-
 figure{
 	padding: 15px;
 	margin: 30px;
 	background-color: #F2EDED;
 	border: 1px solid #ccc;
 	text-align: center;
-	width: 90px;
-	height: 90px;
-
+	/*width: 90px;
+	height: 90px;*/
 }
 figcaption{
 	font-style: italic;
@@ -61,9 +52,13 @@ figcaption{
 
 }
 #familia{
+	/*float: right;
+	margin: 0 0 10px 10px;*/
 	float: right;
+	margin-left: auto;
+	margin-right: auto;
+	width: 550px;
 	margin: 0 0 10px 10px;
-
 }
 .sacola{
 	background: url(img/sacola.png) no-repeat top right;
@@ -115,8 +110,6 @@ header{
 .busca form,
 .depatamentos h2 {
 	margin: 10px;
-	
-
 }
 .departamentos li {
 	background-color: white;
@@ -140,7 +133,6 @@ header{
 	margin: 10px 0;
 	padding: 1px;
 	width: 445px;
-
 }
 .novidades{
 	float: left;
@@ -166,58 +158,31 @@ header{
 	text-align: center;
 	text-decoration: none;
 }
-.novidades{
+.novidades {
 	background-color: #f5dcdc;
 }
 .vendidos {
 	background-color: #dcdcf5;
 }
-.paineis{
-	display: table;
+.paineis {
+	display: block;
+	clear: both;
 }
-.fotos{
-	width: 90px;
+.fotos {
+	/*width: 90px;
 	height: 90px;
-	
 	clear: left;
 	float: left;
 	margin-bottom: 1em;
-	margin-right: 1em;
-	
+	margin-right: 1em;*/
 }	
-.painel.novidades{
+.painel.novidades {
 	float: left;
-	width: 500px;
-	height: 500px;
+	/*width: 500px;
+	height: 500px;*/
 }
-.painel.vendidos{
-	float: right;
-	width: 500px;
-	height: 500px;
+.painel.vendidos {
+	float: left;
+	/*width: 500px;
+	height: 500px;*/
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
