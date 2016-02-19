@@ -1,0 +1,49 @@
+<!DOCTYPE>
+<html>
+	<head>
+		<meta charset="utf8">
+		<title>Sobre a mirror fashion</title>
+		<link rel="stylesheet" href="estilos.css">
+		<!--<link rel="stylesheet" href="css/reset.css">-->
+
+		
+	</head>
+	<body>
+		<header class="container">
+			<h1><img src="img/logo.png" alt="Mirro Fashion"></h1>
+			<p class="sacola">
+			Nenhum item na sacola de compras
+			</p> 
+				<nav class="opcoes">
+		
+					<ul>
+						<li><a 	href="#">Sua Conta</a></li>
+						<li><a	href="#">Lista de desejo</a></li>
+						<li><a	href="#">Cartão de Fidelidade</a></li>
+						<li><a	href="sobre.html">Sobre</a></li>
+						<li><a	href="#">ajuda</a></li>
+											
+					</ul>		
+
+				</nav>	
+			
+
+			
+		</header>
+	
+	<body>
+		<h1>Olá, sou o index.html!</h1>
+
+<style rel="stylesheet" type="text/css">
+.tudo { display: table; }
+.menu { float: left; width: 30%; }
+.conteudo { margin-left: 35%; }
+</style>
+			<!-- HTML -->
+<div class="tudo">
+<div class="menu">Menu</div>
+<div class="conteudo">Conteúdo</div>
+</div>
+
+	</body>
+</html>
