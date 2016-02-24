@@ -20,12 +20,12 @@ body{
 	font-family: "Lucida Sans Unicode","Lucida Grande",sans-serif;
 }
 figure{
-	padding: 15px;
+	/*padding: 15px;
 	margin: 30px;
 	background-color: #F2EDED;
 	border: 1px solid #ccc;
 	text-align: center;
-	/*width: 90px;
+	width: 90px;
 	height: 90px;*/
 }
 figcaption{
@@ -129,7 +129,7 @@ header{
 .destaque{
 	margin-top: 10px;
 }
-.painel{
+.painel {
 	margin: 10px 0;
 	padding: 1px;
 	width: 445px;
@@ -140,12 +140,20 @@ header{
 .vendidos{
 	float: right;
 }
+.painel ol {
+	list-style: none;
+}
 .painel li {
+	/*
 	display: inline-block;
 	vertical-align: top;
 	width: 250px;
 	margin: 2px;
 	padding-bottom: 10px;
+	*/
+	padding: 0;
+	margin: 0;
+	float: left;
 }
 .painel h2 {
 	font-size: 24px;
@@ -167,6 +175,13 @@ header{
 .paineis {
 	display: block;
 	clear: both;
+	overflow: auto;
+}
+.paineis figure {
+	float: left;
+	padding: 0;
+	margin: 0;
+	width: 150px;
 }
 .fotos {
 	/*width: 90px;
@@ -176,12 +191,12 @@ header{
 	margin-bottom: 1em;
 	margin-right: 1em;*/
 }	
-.painel.novidades {
+.novidades {
 	float: left;
 	/*width: 500px;
 	height: 500px;*/
 }
-.painel.vendidos {
+.vendidos {
 	float: left;
 	/*width: 500px;
 	height: 500px;*/
